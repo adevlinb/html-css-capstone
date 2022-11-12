@@ -20,6 +20,7 @@ footer {
     height: 10vh;
     width: 100vw;
     background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 nav > ul,
@@ -71,6 +72,7 @@ footer {
     align-items: center;
     height: 80vh;
     overflow-y: scroll;
+    background-color: lightslategray;
 }
 
 fieldset {
@@ -80,6 +82,8 @@ fieldset {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 legend {
@@ -88,6 +92,8 @@ legend {
     border: 0.5px solid black;
     display: flex;
     justify-content: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 input,
@@ -197,5 +203,31 @@ button {
     height: 80vh;
     overflow-y: scroll;
     padding: 1.5vh 3vw 10vh 3vw;
+    background-image: url("https://i.ebayimg.com/images/g/xdkAAOSwnI9caaFu/s-l1600.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
+#resources-middle > ul {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#resources-middle > ul > li {
+    list-style-type: none;
+}
+
+#resources-middle > ul > li > a {
+    text-decoration: none;
+    color: royalblue
+}
+
+#resources-middle > ul > li > a:visited {
+    color: royalblue;
+}
+
+
+/************************* DETAILSS PAGE BODY / MIDDLE ***********************/
