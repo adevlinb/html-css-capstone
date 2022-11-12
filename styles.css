@@ -231,3 +231,31 @@ button {
 
 
 /************************* DETAILSS PAGE BODY / MIDDLE ***********************/
+
+#details-middle {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    overflow-y: scroll;
+    text-align: center;
+    padding: 1.5vh 3vw 10vh 3vw;
+}
+
+#images-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10vh;
+}
+
+#images-grid > label {
+    width: 20vw;
+    height: 20vw;
+}
+
+#images-grid > label > a > img {
+    width: 20vw;
+    height: 20vw;
+    padding: 2vh;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
