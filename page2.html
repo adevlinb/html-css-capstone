@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="page1.html">Home</a></li>
+            <li><a href="page2.html">SignUp</a></li>
+            <li><a href="page3.html">External Resources</a></li>
+            <li><a href="page4.html">Details</a></li>
+        </ul>
+    </nav>
+    <div id="signup-middle">
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>sign-up</legend>
+                <div class="form__fname">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div class="form__lname">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div class="form__email">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email_address">
+                </div>
+
+                <div class="status__date">
+                    <div class="form__album">
+                        <label for="role">Album:</label>
+                        <select id="role" name="user_role_name">
+                            <option value="Led Zeppelin 1">Led Zeppelin I</option>
+                            <option value="Led Zeppelin 2">Led Zeppelin II</option>
+                            <option value="Led Zeppelin 3">Led Zeppelin III</option>
+                            <option value="Led Zeppelin 4">Led Zeppelin IV</option>
+                            <option value="Physical Graffiti">Physical Graffiti</option>
+                            <option value="Presence">Presence</option>
+                            <option value="In Through The Outdoor">In Through The Outdoor</option>
+                            <option value="Coda">Coda</option>
+                        </select>
+                    </div>
+
+                    <div class="form__date">
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                </div>
+
+                <div class="form__comments">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+
+
+                <div class="form__checkboxes">
+                    <div class="check_signup">
+                        <input type="checkbox" id="signup" name="signup" value="Signup">
+                        <p for="signup">Sign up for news letter</p><br>
+                    </div>
+                    <div class="check_terms">
+                        <input type="checkbox" id="terms" name="terms" value="Terms">
+                        <p for="terms"> Agree to terms and conditions</p>
+                    </div>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Details</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

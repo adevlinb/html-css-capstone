@@ -1,0 +1,201 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/************************* NAV && FOOTER ***********************/
+
+nav,
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100vw;
+    background-color: aliceblue;
+}
+
+nav > ul,
+footer > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    width: 100vw;
+    padding: 0 2.5vw;
+}
+
+nav > ul > li,
+footer > ul > li {
+    list-style-type: none;
+}
+
+footer > ul > li > a {
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+/************************* HOME PAGE BODY / MIDDLE ***********************/
+
+#home-middle {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    overflow-y: scroll;
+    padding: 1.5vh 3vw 10vh 3vw;
+}
+
+#home-middle > img{
+    height: 35vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+/************************* SIGN-UP PAGE FORM / BODY / MIDDLE ***********************/
+
+#signup-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+fieldset {
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+legend {
+    margin-left: 15%;
+    width: 20%;
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+input,
+textarea,
+option,
+select {
+    width: 97%;
+}
+
+.form__fname,
+.form__lname,
+.form__email,
+.form__comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+.status__date {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.form__album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+
+.form__date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 124px;
+}
+
+#role {
+    height: 20px;
+    padding: none;
+}
+
+#date {
+    width: 120px;
+    height: 20px;
+    padding: none;
+}
+
+.radio_dials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio_dials_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.radio_dials > input {
+    margin: 2.5px;
+
+}
+
+.form__checkboxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.check_signup,
+.check_terms {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.check_signup>input,
+.check_terms>input {
+    height: 25px;
+    width: 25px;
+}
+
+.check_signup>p,
+.check_terms>p {
+    font-size: smaller;
+    margin: 10px;
+}
+
+button {
+    width: 100px;
+}
+
+/************************* EXTERNAL RESOURCES PAGE BODY / MIDDLE ***********************/
+
+#resources-middle {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    overflow-y: scroll;
+    padding: 1.5vh 3vw 10vh 3vw;
+}
+
